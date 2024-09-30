@@ -11,7 +11,7 @@ jobs:
         fetch-depth: 1
     - uses: WillAbides/setup-go-faster@v1.7.0
       with:
-        go-version: 1.16,
+        go-version: 1.18,
     - run: "go mod tidy"
     - uses: dominikh/staticcheck-action@v1.2.0
       with:
