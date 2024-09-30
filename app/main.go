@@ -26,3 +26,5 @@ func main() {
 func unusedFunction() {
 	fmt.Println("This function is unused.")
 }
+
+
