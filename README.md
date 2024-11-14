@@ -11,6 +11,7 @@ demonstrate the language, standard libraries, and tools.
 $ git clone https://go.googlesource.com/example
 $ cd example
 ```
+
 https://go.googlesource.com/example is the canonical Git repository.
 It is mirrored at https://github.com/golang/example.
 
@@ -21,21 +22,22 @@ $ cd hello
 $ go build
 $ ./hello -help
 ```
+
 A trivial "Hello, world" program that uses a library package.
 
 The [hello](hello/) command covers:
 
-* The basic form of an executable command
-* Importing packages (from the standard library and the local repository)
-* Printing strings ([fmt](//golang.org/pkg/fmt/))
-* Command-line flags ([flag](//golang.org/pkg/flag/))
-* Logging ([log](//golang.org/pkg/log/))
+- The basic form of an executable command
+- Importing packages (from the standard library and the local repository)
+- Printing strings ([fmt](//golang.org/pkg/fmt/))
+- Command-line flags ([flag](//golang.org/pkg/flag/))
+- Logging ([log](//golang.org/pkg/log/))
 
 The [reverse](hello/reverse/) reverse covers:
 
-* The basic form of a library
-* Conversion between string and []rune
-* Table-driven unit tests ([testing](//golang.org/pkg/testing/))
+- The basic form of a library
+- Conversion between string and []rune
+- Table-driven unit tests ([testing](//golang.org/pkg/testing/))
 
 ## [helloserver](helloserver/)
 
@@ -48,9 +50,9 @@ A trivial "Hello, world" web server.
 
 Topics covered:
 
-* Command-line flags ([flag](//golang.org/pkg/flag/))
-* Logging ([log](//golang.org/pkg/log/))
-* Web servers ([net/http](//golang.org/pkg/net/http/))
+- Command-line flags ([flag](//golang.org/pkg/flag/))
+- Logging ([log](//golang.org/pkg/log/))
+- Web servers ([net/http](//golang.org/pkg/net/http/))
 
 ## [outyet](outyet/)
 
@@ -58,20 +60,21 @@ Topics covered:
 $ cd outyet
 $ go run .
 ```
+
 A web server that answers the question: "Is Go 1.x out yet?"
 
 Topics covered:
 
-* Command-line flags ([flag](//golang.org/pkg/flag/))
-* Web servers ([net/http](//golang.org/pkg/net/http/))
-* HTML Templates ([html/template](//golang.org/pkg/html/template/))
-* Logging ([log](//golang.org/pkg/log/))
-* Long-running background processes
-* Synchronizing data access between goroutines ([sync](//golang.org/pkg/sync/))
-* Exporting server state for monitoring ([expvar](//golang.org/pkg/expvar/))
-* Unit and integration tests ([testing](//golang.org/pkg/testing/))
-* Dependency injection
-* Time ([time](//golang.org/pkg/time/))
+- Command-line flags ([flag](//golang.org/pkg/flag/))
+- Web servers ([net/http](//golang.org/pkg/net/http/))
+- HTML Templates ([html/template](//golang.org/pkg/html/template/))
+- Logging ([log](//golang.org/pkg/log/))
+- Long-running background processes
+- Synchronizing data access between goroutines ([sync](//golang.org/pkg/sync/))
+- Exporting server state for monitoring ([expvar](//golang.org/pkg/expvar/))
+- Unit and integration tests ([testing](//golang.org/pkg/testing/))
+- Dependency injection
+- Time ([time](//golang.org/pkg/time/))
 
 ## [appengine-hello](appengine-hello/)
 
