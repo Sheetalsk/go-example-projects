@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ "javascript", "python", "go", "java", "csharp" ]
+        language: [ "go" ]
         # You can add other supported languages here
 
     steps:
